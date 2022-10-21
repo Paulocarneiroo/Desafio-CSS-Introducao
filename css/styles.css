@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@300;400;700&display=swap');
+
+:root{
+    --color-white: #FFFFFF;
+    --color-red: #F03C42;
+    --color-blue: #222374;
+    --color-gray: #CCCCCC;
+    --color-black: #000000;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+a, a:hover{
+    color: unset;
+    text-decoration: none;
+}
+
+header{
+    background-color: var(--color-red);
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div{
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+}
+
+nav div a{
+    margin-left: 10px;
+}
+
+nav h2{
+    font-size: 18px;
+    color: var(--color-white);
+}
+
+nav a{
+    font-size: 14px;
+    color: var(--color-white);
+}
+
+nav img{
+    width: 30px;
+    height: 30px;
+}
+
+#presentation{
+    height: 418px;
+    background-color: var(--color-blue);
+}
+
+#presentation h1{
+    font-size: 32px;
+    color: var(--color-white);
+    padding: 20px 0px 20px 0px;
+}
+
+.fitness-card{
+    padding: 20px;
+    margin: 20px 0px 20px 0px;
+    height: 127px;
+    background-color: var(--color-gray);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fitness-card h3{
+    font-size: 20px;
+    color: var(--color-black);
+}
+
+.fitness-card p{
+    font-size: 14px;
+    color: var(--color-black);
+}
+
+#modalities{
+    height: 880px;
+    background-color:var(--color-white);
+}
+
+#modalities h1{
+    font-size: 32px;
+    color: var(--color-red);
+    padding: 20px 0px 20px 0px;
+}
+
+.modalities-card{
+    padding: 20px;
+    margin: 20px 0px 20px 0px;
+    height: 106px;
+    background-color: var(--color-blue);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.modalities-card h3{
+    font-size: 20px;
+    color: var(--color-white);
+}
+
+footer{
+    text-align: center;
+    background-color: var(--color-black);
+    height: 262px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-content a, p, address{
+    color: var(--color-white);
+    font-size: 14px;
+}
+
+
+
+
+
